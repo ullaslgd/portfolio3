@@ -8,7 +8,7 @@ const Contact = () => {
       <h3>Socials</h3>
       <div className='flex justify-around items-center gap-4w pt-5'>
          {SocialArray.map((item,i)=>(
-            <a href={item.link} target="_blank"><span key={i}><Image className="rounded-[100px]"src={item.icon} alt="icon" height={40} width={40}/></span></a>
+            <a key={i} href={item.link} target="_blank"><span ><Image className="rounded-[100px]"src={item.icon} alt="icon" height={40} width={40}/></span></a>
          ))}
       </div>
 
