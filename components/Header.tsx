@@ -3,9 +3,9 @@ import Image from 'next/image'
 
 const Header = () => {
   return (
-    <section id="home" className=" flex-col lg:absolute lg:top-[10%] gap-1 mt-[100px] w-[90%] max-w-[450px] rounded-[15px] bg-[#FFFEFD] p-5 pt-16 border-2 border-zinc-200">
+    <section id="home" className=" flex-col  gap-1 mt-[100px] w-[90%] max-w-[450px] rounded-[15px] bg-[#FFFEFD] p-5 pt-16 border-2 border-zinc-200">
         <div>
-            <Image className="rounded-full absolute pointer-events-none top-[50px] lg:top-[-23%] border-white border-[6px]" src="/profile.png" alt="" height={110} width={110}/>
+            <Image className="rounded-full absolute pointer-events-none top-[50px] border-white border-[6px]" src="/profile.png" alt="" height={110} width={110}/>
         </div>
         <div className="flex flex-col justify-center pl-4">
             <h1 className="font-semibold">Ullas Arwan</h1>
