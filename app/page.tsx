@@ -6,11 +6,12 @@ import Projects from "@/components/Projects";
 import Certificates from "@/components/Certificates";
 import Contact from "@/components/Contact";
 import { FloatingNav } from "@/components/ui/floating-navbar";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
     <main className="relative flex  justify-center items-center bg-[#f2f3f5]  flex-col overflow-hidden m-auto">
-      <FloatingNav navItems={[{name:'Home', link:'/',},{name: "About", link: "#about",},{name:"Skills", link: "#skills"},{name:"Projects", link:"#projects",},{name:"Social", link:"#social",}]}/>
+      <FloatingNav navItems={[{name:'Home', link:'/',},{name: "About", link: "#about",},{name:"Skills", link: "#skills"},{name:"Projects", link:"#projects",}]}/>
      
      <Header />
      <About />
@@ -18,6 +19,7 @@ export default function Home() {
      <Projects />
      <Certificates />
      <Contact />
+     <Footer />
 
 
 
