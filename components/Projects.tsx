@@ -4,7 +4,7 @@ import { ProjectsArray } from '@/constants'
 
 const Projects = () => {
   return (
-    <section id="projects"  className='flex  flex-col gap-1 mt-[40px] w-[90%] max-w-[450px] rounded-[15px] bg-[#FFFEFD] p-5 pt-6  border-2 border-zinc-200'>
+    <section id="projects"  className='flex lg:ml-[240px] flex-col gap-1 mt-[40px] w-[90%] max-w-[450px] rounded-[15px] bg-[#FFFEFD] p-5 pt-6  border-2 border-zinc-200'>
             <h3 className='font-semibold'>Projects</h3>
             {ProjectsArray.map((item,index)=>(
                 <div key={index} className='flex gap-[20px] my-3 rounded-[10px] cursor-pointer p-4 hover:bg-[#6a748020]'>

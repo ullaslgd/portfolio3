@@ -2,7 +2,7 @@ import React from 'react'
 
 const Certificates = () => {
   return (
-    <section  className='flex  flex-col gap- mt-[40px] w-[90%] max-w-[450px] rounded-[15px] bg-[#FFFEFD] p-5 pt-6  border-2 border-zinc-200'>
+    <section  className='flex  flex-col gap-4 lg:absolute lg:bottom-[28%] lg:left-[32.7%] mt-[40px] w-[90%] max-w-[450px] rounded-[15px] bg-[#FFFEFD] p-5 pt-6  border-2 border-zinc-200'>
         <h3 className='font-semibold'>Certificates</h3>
         <div className="mt-4  px-5 ">
         <ul className='flex flex-col gap-4 list-disc'>
