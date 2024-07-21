@@ -75,30 +75,35 @@ export const ProjectsArray=[
         icon:Nike,
         title:"Nike Landing Page",
         description:"Created a dynamic and responsive Nike landing page showcasing innovative design.",
+        link:"https://github.com/ullaslgd/Nike-landing-page.git",
         stack:"Tailwind • React"
     },
     {
         icon:Apple,
         title:"Apple Landing Page",
         description:"Created a dynamic and responsive Nike landing page showcasing innovative design.",
+        link:"https://github.com/ullaslgd/iphone-.git",
         stack:"Tailwind • React • Gsap • Three.js"
     },
     {
         icon:Ullas,
         title:"Personal Portfolio",
         description:"Created a developer portfolio showcasing skills and projects.",
+        link:"https://github.com/ullaslgd/portfolio2.git",
         stack:"Tailwind • React • Next.js"
     },
     {
         icon:Prompthub,
         title:"prompt Hub",
         description:"Created a web appliication to share and discover ai prompts",
+        link:"https://github.com/ullaslgd/Prompthub.git",
         stack:"Tailwind • React • Next.js"
     },
     {
         icon:Python,
         title:"100 Python Projects",
         description:"Showcasing 100 python projects built in a online python bootcamp.",
+        link:"https://github.com/ullaslgd/100-days-of-python.git",
         stack:"python"
     }
 ]
