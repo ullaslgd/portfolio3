@@ -1,8 +1,6 @@
 import React from 'react'
-import Image from 'next/image'
-import  Link from '@/public/link.png'
-import Location from "@/public/location.png"
-import Mail from "@/public/mail.png"
+ 
+ 
 
 const Header = () => {
   return (
