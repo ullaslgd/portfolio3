@@ -16,7 +16,7 @@ const About = () => {
         </div>
         </div>
         <div className='max-sm:hidden max-md:hidden'>
-            <Image src={Aboutpic} alt='about' height={400} className="rounded-[20px]"/> 
+            <Image src={Aboutpic} alt='about' height={400} className="rounded-[23px]"/> 
         </div>
     </section>
   )
