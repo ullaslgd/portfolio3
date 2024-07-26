@@ -6,25 +6,46 @@ import Mail from "@/public/mail.png"
 
 const Header = () => {
   return (
-    <section id="home" className=" flex-col  gap-1 mt-[100px] w-[90%] max-w-[450px] rounded-[15px] bg-[#FFFEFD] p-5 pt-16 border-2 border-zinc-200">
-        <div>
-            <Image className="rounded-full absolute pointer-events-none top-[50px] border-white border-[6px]" src="/profile.png" alt="" height={110} width={110}/>
-        </div>
-        <div className="flex flex-col justify-center pl-4">
-            <h1 className="font-semibold text-xl pb-3">Ullas Arwan</h1>
-        </div>
-        <div className="flex flex-col">
-         <div className='flex gap-2 text-gray-600'><Image  src={Location} alt=''/><a href="">India</a></div>
-         <div className='flex gap-2 text-gray-600'><Image  src={Link} alt='' /><a href="https://www.github.com/ullaslgd" target='_blank'>Github</a></div>
-         <div className='flex gap-2 text-gray-600'><Image  src={Mail} alt='' /> <a href=""> clubullas@gmail.com</a></div>
-        </div>
-        <div className="flex gap-8 items-center justify-center pt-5">
-            <button className="bg-[#5865f2] hover:bg-[#4453fa] py-1 px-3 rounded-[15px] text-white">Download CV</button>
-            <button className="bg-[#5865f2] hover:bg-[#4453fa] py-1 px-3 rounded-[15px] text-white">Freelance</button>
+    
+    <section className='w-full mb-8'>
+      
+   
+<div className="relative overflow-hidden before:absolute before:top-0 before:start-1/2 before:bg-[url('https://preline.co/assets/svg/examples/polygon-bg-element.svg')] before:bg-no-repeat before:bg-top before:bg-cover before:size-full before:-z-[1] before:transform before:-translate-x-1/2">
+  <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-10">
+ 
+    
+ 
 
+    
+    <div className="mt-5 max-w-2xl text-center mx-auto">
+      <h1 className="block font-bold text-gray-800 text-4xl md:text-6xl lg:text-7xl">
+        I'm
+        <span className="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent"> Ullas Arwan</span>
+      </h1>
+    </div>
+   
+
+    <div className="mt-5 max-w-3xl text-center mx-auto">
+      <p className="text-lg text-gray-600 py-4">I make cool websites and games okay.</p>
+    </div>
+
+    
+    <div className="mt-8 gap-3 flex justify-center">
+      <a className="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-blue-600 to-violet-600 hover:from-violet-600 hover:to-blue-600 border border-transparent text-white text-sm font-medium rounded-md focus:outline-none focus:from-violet-600 focus:to-blue-600 py-3 px-4" href="#">
+        Download CV
+        <svg className="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+      </a>
+      <button type="button" className="relative group p-2 ps-3 inline-flex items-center gap-x-2 text-sm font-mono rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none">
+        git hub
         
-        </div>
+      </button>
+    </div>
+ 
 
+     
+  </div>
+</div>
+ 
     </section>
   )
 }

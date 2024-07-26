@@ -10,7 +10,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="relative flex flex-col justify-center items-center bg-[#f2f3f5]  overflow-hidden m-auto">
+    <main className="relative flex flex-col justify-center items-center  overflow-hidden m-auto">
       <FloatingNav navItems={[{name:'Home', link:'/',},{name: "About", link: "#about",},{name:"Skills", link: "#skills"},{name:"Projects", link:"#projects",}]}/>
      
      <Header />
