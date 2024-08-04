@@ -10,7 +10,7 @@ import Linkedin from "@/public/linkedin.png"
 import { link } from "fs"
 
 
-export const SkillsArray=[
+export const SkillsArray=[[
     {
         skillName:"HTML",
     },
@@ -35,11 +35,13 @@ export const SkillsArray=[
     {
         skillName:"Three.js"
     },
+    {
+        skillName:"Figma"
+    },
 
-     
-]
 
-export const BSkillsArray=[
+],
+[
     {
         skillName:"Node.js",
     },
@@ -58,17 +60,46 @@ export const BSkillsArray=[
     {
         skillName:"PostMan"
     }
-]
+],
+[
 
-export const GSkillsArray=[
-    
     {
         skillName:"Unreal Engine"
     },
     {
         skillName:"C++"
+    },
+    {
+        skillName:"Blueprint"
     }
-]
+],
+[
+    {
+        skillName:"Git"
+    },
+    {
+        skillName:"Github"
+    },
+    {
+        skillName:"Vercel"
+    }
+
+],
+[
+    {
+        skillName:"React Native"
+    },{
+        skillName:"Native Wind"
+    },
+    {
+        skillName:"Expo"
+    },{
+        skillName:"Appwrite"
+    }
+]]
+
+
+
 
 export const ProjectsArray=[
     {
