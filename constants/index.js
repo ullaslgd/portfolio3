@@ -29,15 +29,7 @@ export const SkillsArray=[[
     {
         skillName:"React.js"
     },
-    {
-        skillName:"GSap"
-    },
-    {
-        skillName:"Three.js"
-    },
-    {
-        skillName:"Figma"
-    },
+
 
 
 ],
@@ -69,9 +61,7 @@ export const SkillsArray=[[
     {
         skillName:"C++"
     },
-    {
-        skillName:"Blueprint"
-    }
+
 ],
 [
     {
@@ -93,8 +83,6 @@ export const SkillsArray=[[
     },
     {
         skillName:"Expo"
-    },{
-        skillName:"Appwrite"
     }
 ]]
 
