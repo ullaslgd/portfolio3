@@ -7,27 +7,34 @@ import Github from "@/public/github.png"
 import Discord from "@/public/discord.png"
 import Twitter from "@/public/twitter.png"
 import Linkedin from "@/public/linkedin.png"
+
 import { link } from "fs"
 
 
 export const SkillsArray=[[
     {
         skillName:"HTML",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
     },
     {
         skillName:"CSS",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
     },
     {
-        skillName:"JavaScript"
+        skillName:"JavaScript",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
     },
     {
-        skillName:"TypeScript"
+        skillName:"TypeScript",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
     },
     {
-        skillName:"TailwindCss"
+        skillName:"TailwindCss",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
     },
     {
-        skillName:"React.js"
+        skillName:"React.js",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
     },
 
 
@@ -36,54 +43,71 @@ export const SkillsArray=[[
 [
     {
         skillName:"Node.js",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
     },
     {
         skillName:"Next.js",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
     },
     {
         skillName:"Express.js",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
     },
     {
-        skillName:"MongoDB"
+        skillName:"MongoDB",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+
     },
     {
-        skillName:"PostgreSQL"
+        skillName:"PostgreSQL",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
     },
     {
-        skillName:"PostMan"
+        skillName:"PostMan",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"
     }
 ],
 [
 
     {
-        skillName:"Unreal Engine"
+        skillName:"Unreal Engine",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original.svg"
+
     },
     {
-        skillName:"C++"
+        skillName:"C++",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
     },
 
 ],
 [
     {
-        skillName:"Git"
+        skillName:"Git",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
     },
     {
-        skillName:"Github"
+        skillName:"Github",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
     },
     {
-        skillName:"Vercel"
+        skillName:"Vercel",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
     }
 
 ],
 [
     {
-        skillName:"React Native"
+        skillName:"React Native",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
     },{
-        skillName:"Native Wind"
+        skillName:"Native Wind",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+
     },
-    {
-        skillName:"Expo"
-    }
+    // {
+    //     skillName:"Expo",
+    //     icon:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/expo/expo-original.svg"
+    // }
 ]]
 
 

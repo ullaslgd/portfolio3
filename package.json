@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "clsx": "^2.1.1",
+    "devicon": "^2.16.0",
     "framer-motion": "^11.3.7",
     "next": "14.2.5",
     "react": "^18",
