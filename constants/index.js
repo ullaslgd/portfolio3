@@ -115,6 +115,13 @@ export const SkillsArray=[[
 
 export const ProjectsArray=[
     {
+        icon:Python,
+        title:"Zentry Clone",
+        description:"Created a clone of Zentry, a award winning website using react",
+        link:"https://redefine-gaming-gcvp.vercel.app/",
+        stack:"Tailwind • React • gsap"
+    },
+    {
         icon:Nike,
         title:"Nike Landing Page",
         description:"Created a dynamic and responsive Nike landing page showcasing innovative design.",
@@ -142,13 +149,7 @@ export const ProjectsArray=[
         link:"https://github.com/ullaslgd/Prompthub.git",
         stack:"Tailwind • React • Next.js"
     },
-    {
-        icon:Python,
-        title:"100 Python Projects",
-        description:"Showcasing 100 python projects built in a online python bootcamp.",
-        link:"https://github.com/ullaslgd/100-days-of-python.git",
-        stack:"python"
-    }
+   
 ]
 
 export const SocialArray =[
