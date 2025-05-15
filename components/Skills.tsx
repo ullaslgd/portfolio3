@@ -45,6 +45,13 @@ const Skills = () => {
                 <span  className=" flex gap-2 items-center p-[3px] px-[10px] text-[13px] lg:text-[16px] mx-1 my-[6px] bg-[#6a748020] rounded-[4px] font-Poppins" key={index}><img width={20} height={20} src={skill.icon} />{skill.skillName}</span>
             ))}
         </div>
+
+        <div className="pt-4 flex gap-2 flex-wrap">
+            <h5  className="flex items-center justify-center text-[18px] lg:text-[20px] font-Poppins">Data Analysis --</h5>
+            {SkillsArray[5].map((skill, index) => (
+                <span  className=" flex gap-2 items-center p-[3px] px-[10px] text-[13px] lg:text-[16px] mx-1 my-[6px] bg-[#6a748020] rounded-[4px] font-Poppins" key={index}><img width={20} height={20} src={skill.icon} />{skill.skillName}</span>
+            ))}
+        </div>
         </div>
         <div className='max-sm:hidden max-md:hidden flex justify-self-end items-center'>
             <Image src={skillspic} alt='' height={400}  className="rounded-[23px]" />

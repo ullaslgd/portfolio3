@@ -36,6 +36,10 @@ export const SkillsArray=[[
         skillName:"React.js",
         icon:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
     },
+    {
+        skillName:"Streamlit",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-original.svg"
+    }
 
 
 
@@ -108,6 +112,23 @@ export const SkillsArray=[[
     //     skillName:"Expo",
     //     icon:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/expo/expo-original.svg"
     // }
+],[
+    {
+        skillName:"NumPy",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg"   
+    },
+    {
+        skillName:"Pandas",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg"
+    },
+    {
+        skillName:"Matplotlib",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg"
+    },
+    {
+        skillName:"sql",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg"
+    }
 ]]
 
 
@@ -144,10 +165,10 @@ export const ProjectsArray=[
     },
     {
         icon:Prompthub,
-        title:"prompt Hub",
-        description:"Created a web appliication to share and discover ai prompts",
-        link:"https://github.com/ullaslgd/Prompthub.git",
-        stack:"Tailwind • React • Next.js"
+        title:"AI Web Scraper",
+        description:"Created a web scraper to extract data from websites using Python.",
+        link:"https://github.com/ullaslgd/AI-Web-Scraper.git",
+        stack:"Python • BeautifulSoup • Selenium"
     },
    
 ]

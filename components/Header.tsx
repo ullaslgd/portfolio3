@@ -16,8 +16,8 @@ const Header = () => {
 
     <div className="mt-5 max-w-2xl text-center mx-auto">
       <h1 className="block font-bold text-gray-800 text-4xl md:text-6xl lg:text-7xl">
-        I'm
-        <span className="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent "> Ullas Arwan</span>
+        Hey , I'm
+        <span className="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent "> Ullas</span>
       </h1>
     </div>
 

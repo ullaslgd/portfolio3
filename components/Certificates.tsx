@@ -1,21 +1,47 @@
-import React from 'react'
+import React from 'react';
 
-const Certificates = () => {
+const certifications = [
+  { name: 'Full Stack Web Development', issuer: 'Udemy', date: '2024-05-15' },
+  { name: 'Generative AI Essentials', issuer: 'LinkedIn', date: '2024-06-23' },
+  { name: 'AWS Technical Essentials', issuer: 'Simplilearn', date: '2024-10-23' },
+  { name: 'Web Development Internship', issuer: 'Uptricks', date: '2024-11-24' },
+  { name: 'Introduction to MongoDB', issuer: 'MongoDB', date: '2024-12-08' },
+  { name: 'Python for Machine Learning', issuer: 'Kaggle', date: '2025-01-30' },
+  { name: 'Intro to Machine Learning', issuer: 'Kaggle', date: '2025-01-31' },
+  { name: 'Data Science Fundamentals', issuer: 'Scaler Topics', date: '2025-02-04' },
+  { name: 'Data Analytics Job Simulation', issuer: 'Deloitte', date: '2025-02-07' },
+];
+
+const CertificationTable = () => {
   return (
-    <section  className='flex  flex-col gap-4   mt-[40px] w-[90%] max-w-[95vw] rounded-[15px] bg-[#FFFEFD] p-5 pt-6  border-2 border-zinc-200'>
-        <h3 className='font-semibold bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent text-2xl '>Certificates</h3>
-        <div className="mt-4  px-5 ">
-        <ul className='flex flex-col gap-4 list-disc'>
-            <li><a className='text-gray-950 hover:text-[#6300f7]' target='_blank' href="https://www.udemy.com/certificate/UC-3b54c456-699c-4bbe-b273-9b0fd91d8d9c/">The Complete 2024 Web Development Bootcamp</a></li>
-            <li><a  className="text-gray-950 hover:text-[#6300f7]" target='_blank' href="https://www.linkedin.com/learning/certificates/31c9e67c33b5eaecf4d85dcbdd6f7376941dae7d1bdb0d3902db54048d976d54">Career Essentials in Generative AI by Microsoft and LinkedIn</a></li>
-            <li><a  className="text-gray-950 hover:text-[#6300f7]" target='_blank' href="https://ti-user-certificates.s3.amazonaws.com/ae62dcd7-abdc-4e90-a570-83eccba49043/6574e173-7fcd-42d6-be1c-30f089a37e8d-ullas-563e0c85-1dfd-4017-a839-25de18411bb1-certificate.pdf">Introduction to MongoDB</a></li>
-            <li><a  className="text-gray-950 hover:text-[#6300f7]" target='_blank' href="https://certificates.simplicdn.net/share/">The AWS Technical Essentials</a></li>
-
-        </ul>
-        </div>
-
+    <section className="max-w-6xl mx-auto my-16 p-10 bg-white rounded-xl shadow-lg border border-gray-300 min-h-[500px]">
+      <h2 className="text-4xl font-extrabold mb-8 text-center bg-gradient-to-r from-blue-600 to-violet-600 bg-clip-text text-transparent">
+        🎓 Certifications
+      </h2>
+      <div className="overflow-x-auto">
+        <table className="w-full text-left border-collapse">
+          <thead>
+            <tr className="bg-gray-100">
+              <th className="py-4 px-6 font-semibold text-gray-700 border-b border-gray-300">📜 Certification</th>
+              <th className="py-4 px-6 font-semibold text-gray-700 border-b border-gray-300">🏢 Issued By</th>
+              <th className="py-4 px-6 font-semibold text-gray-700 border-b border-gray-300">📅 Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            {certifications.map(({ name, issuer, date }) => (
+              <tr key={name} className="hover:bg-gray-50 transition-colors cursor-default">
+                <td className="py-4 px-6 border-b border-gray-200">{name}</td>
+                <td className="py-4 px-6 border-b border-gray-200">{issuer}</td>
+                <td className="py-4 px-6 border-b border-gray-200">{new Date(date).toLocaleDateString()}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </section>
-  )
-}
+  );
+};
 
-export default Certificates
+export default CertificationTable;
+
+
